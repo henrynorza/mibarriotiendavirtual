@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package persistencia;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
  *
- * @author H193250
+ * @author Henry Norza
  */
 public class ConexionBD {
     private String DB_driver ="";
@@ -26,12 +22,12 @@ public class ConexionBD {
     //constructor. Se puede crear automaticamente con click secundario, 
     //insert code, constructor
     public ConexionBD() {
-        DB_driver = "com.mysql.jdbc.Driver";
+        DB_driver = "com.mysql.cj.jdbc.Driver";
         host="localhost:3306";
         db="world";
         url="jdbc:mysql://" + host + "/" + db;
         username = "root";
-        password = "";
+        password = "Landmark1";
         //haremos un try catch por si llega a fallar la conexion a DB
         try{
             //Asignacion del driver
