@@ -1,0 +1,28 @@
+/* 
+    Created on : Oct 7, 2021, 10:42:58 PM
+    Author     : Henry Norza
+*/
+#tabtext{
+    color:white;
+}
+h1{
+    text-align: center;
+    color:#55C0E1;
+}
+.btn-danger{
+    background-color: #E64B7B !important;
+    border-color:  #E64B7B !important;
+    -color:null !important;
+}
+body {
+  background-image: url('mercadobarrio.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+ 
+}
